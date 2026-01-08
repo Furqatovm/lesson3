@@ -79,7 +79,7 @@ const Header = () => {
 <path d="M1 1H33V20.6129H1V1Z" fill="#D22F27"/>
 <path d="M1 1H33V7.70968H1V1Z" fill="white"/>
 <path d="M1 7.70966H33V13.9032H1V7.70966Z" fill="#1E50A0"/>
-<path d="M1 1H33V20.6129H1V1Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 1H33V20.6129H1V1Z" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
         <span className='font-semibold'>Ru</span>
                     </div>
