@@ -4,6 +4,7 @@ import Hero from './components/hero'
 import Second from './components/second'
 import Third from './components/third'
 import Forth from './components/forth'
+import Five from './components/five'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Second />
       <Third />
       <Forth />
+      <Five />
     </div>
   )
 }
