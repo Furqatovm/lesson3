@@ -1,6 +1,11 @@
 import React from 'react'
 import logo from "../assets/lastlogo.png"
 
+import first from "../assets/last/first.png";
+import second from "../assets/last/second.png";
+import third from "../assets/last/third.png";
+import forth from "../assets/last/forth.png";
+
 const Five = () => {
   return (
     <section className='max-w-337.5 mx-auto py-10'>
@@ -43,6 +48,43 @@ const Five = () => {
                 на российском рынке свыше 9 лет. </p>
             </div>
 
+
+        </div>
+
+
+        <div className='grid grid-cols-4 gap-6 py-10'>
+
+            <div className='flex gap-6 items-center'>
+                <img src={first} className='max-w-18 w-full' alt="" />
+                <span>
+                    <h3 className='text-[1.5rem] text-[#000000] font-semibold'>Гарантия качества</h3>
+                    <span className='text-[1rem] font-light'>Lorem ipsum dolor sit amet, consectetur </span>
+                </span>
+            </div>
+
+            <div className='flex gap-6 items-center'>
+                <img src={second} className='max-w-18 w-full' alt="" />
+                <span>
+                    <h3 className='text-[1.5rem] text-[#000000] font-semibold'>Гарантия качества</h3>
+                    <span className='text-[1rem] font-light'>Lorem ipsum dolor sit amet, consectetur </span>
+                </span>
+            </div>
+
+            <div className='flex gap-6 items-center'>
+                <img src={third} className='max-w-18 w-full' alt="" />
+                <span>
+                    <h3 className='text-[1.5rem] text-[#000000] font-semibold'>Гарантия качества</h3>
+                    <span className='text-[1rem] font-light'>Lorem ipsum dolor sit amet, consectetur </span>
+                </span>
+            </div>
+
+            <div className='flex gap-6 items-center'>
+                <img src={forth} className='max-w-18 w-full' alt="" />
+                <span>
+                    <h3 className='text-[1.5rem] text-[#000000] font-semibold'>Гарантия качества</h3>
+                    <span className='text-[1rem] font-light'>Lorem ipsum dolor sit amet, consectetur </span>
+                </span>
+            </div>
 
         </div>
     </section>
